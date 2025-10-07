@@ -6,7 +6,7 @@ export default function AboutScreen(){
             <Text style={styles.text}>About Screen</Text>
         </View>
     )
-}
+}//testing out auto pull
 
 const styles = StyleSheet.create({
     container:{
