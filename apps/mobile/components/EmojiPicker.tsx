@@ -49,4 +49,4 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 16,
   },
-});
+}); //here's a test
