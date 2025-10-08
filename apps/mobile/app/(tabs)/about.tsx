@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
     text: {
         color: '#fff', 
     },
-});
+});//maybe last test
