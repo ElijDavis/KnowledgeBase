@@ -1,9 +1,18 @@
-import { View } from "react-native";
+import { Text, View, Image, StyleSheet } from "react-native";
+import SettingsBar from "@/components/settingsBar";
 
 export default function Index() {
   return (
-    <View className="flex-1 items-center justify-center bg-white">
-      <View className="w-24 h-24 bg-blue-500 rounded-lg shadow-lg" />
+    <View style={sytles.Container}>
+      <SettingsBar />
     </View>
   );
 }
+
+const sytles = StyleSheet.create({
+  Container: {
+    alignItems: 'center',
+    paddingTop: 20,
+    width: '100%',
+  }
+});
