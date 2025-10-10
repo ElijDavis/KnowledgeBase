@@ -7,8 +7,8 @@ module.exports = function (api) {
       "nativewind/babel", // ✅ must be in presets, not plugins
     ],
     plugins: [
-      // If you use Reanimated, keep this last:
-      // "react-native-reanimated/plugin",
+      // other plugins can go here if you add them later
+      "react-native-reanimated/plugin", // ✅ must be last
     ],
   };
 };
