@@ -1,10 +1,9 @@
 import { Text, View, Image, StyleSheet } from "react-native";
-import SettingsBar from "@/components/settingsBar";
 
 export default function Index() {
   return (
-    <View style={sytles.Container}>
-      <SettingsBar />
+    <View >
+      <Text>Index Page</Text>
     </View>
   );
 }
@@ -12,7 +11,7 @@ export default function Index() {
 const sytles = StyleSheet.create({
   Container: {
     alignItems: 'center',
-    paddingTop: 20,
+    paddingTop: '10%',
     width: '100%',
   }
 });
