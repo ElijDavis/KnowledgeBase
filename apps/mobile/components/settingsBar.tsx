@@ -25,18 +25,18 @@ const styles = StyleSheet.create({
   },
   SettingsBar: {
     width: '90%',
-    height: 50,
+    height: 60,
     backgroundColor: 'black',
     justifyContent: 'center',
     borderRadius: 9999,
   },
   RedCircle: {
-    width: '12%',
+    width: '14%',
     height: '80%',
     alignSelf: 'flex-end',
     justifyContent: 'center',
     alignItems: 'center',
-    margin: '2%',
+    margin: '1.5%',
     borderRadius: 9999,
     backgroundColor: '#AF1D1D',
   }
