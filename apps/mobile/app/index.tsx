@@ -3,7 +3,7 @@ import { View, StyleSheet, Image, ImageBackground } from "react-native";
 import MaskedView from "@react-native-masked-view/masked-view";
 import Svg, { Rect, Defs, Mask } from "react-native-svg";
 import GlobalShare from "../components/globalShare";
-import SnapShot from "@/components/shapShot";
+import SnapShot from "@/components/snapShot";
 
 const Index: React.FC = () => {
   return (
